@@ -12,7 +12,9 @@
     <form method = "GET" action="UserChangeForm.php">    
     <div class="userList">
     <div id ="result"></div>
-        <?php
+        <?php 
+        
+        
         $connect = mysqli_connect("localhost", "michal","xyz");
         $output = '';
         $query = "
